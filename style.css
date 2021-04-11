@@ -70,6 +70,14 @@ footer p{
 
 /* ------------------Barre de navigation------------------ */
 
+nav{
+	position: fixed;
+	top: 0; 
+	overflow: hidden;
+	width: 100%;
+
+}
+
 nav ul {
 		background-color: #DBE9EE;
 		margin: 0;
