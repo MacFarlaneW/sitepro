@@ -27,25 +27,47 @@
 			<h1>Prêt·e à améliorer votre communication scientifique ?</h1>
 		</header>
 		
-
+		<div class="emballage">
 		<p>
 			En tant que <i>digital nomad</i>, je suis disponible pour vous partout dans le monde... à partir du moment où vous avez une connexion internet ! <br> Je peux également me déplacer ponctuellement dans vos locaux, en France et ailleurs, ou effectuer des missions courtes (de quelques semaines à quelques mois) en 100 % présentiel.
 		</p>
 
-		<p>
-			Formulaire de contact.
-		</p>
+	<!-- 		Il va falloir faire fonctionner tout ça et revoir le php... -->
+	<form id="email-form" name="email-form" data-name="Email Form" action="mail.php" method="post">
+		<p> Laissez-moi un message !</p>
+		<div>
+			<label for="name" class="form-label">Nom :</label>
+			<input type="text" id="name" name="name" data-name="Name" maxlength="256" class="form-field"/>
+		</div>
+		<div>
+			<label for="email" class="form-label">Mail :</label>
+			<input type="email" id="email" name="email" data-name="Email" maxlength="256" required="" class="form-field"/>
+		</div>
+		<div>
+			<label for="Message" class="form-label">Message :</label>
+			<textarea id="Message" name="Message" maxlength="5000" data-name="Message" class="form-field"></textarea>
+		</div>
+<!-- 		https://developers.google.com/recaptcha/docs/v3 -->
+<!-- 		Si vous êtes un robot intelligent, contactez-moi pour conquérir le monde. -->		
+		<input type="submit" value="Contactez-moi" class="boutonBIG"/>
+	</form>
+<!-- 	<div class="success-wrapper w-form-done">
+		<p class="success-message">Merci ! Votre message a été reçu, je reviens vers vous rapidement.</p>
+	</div>
+	<div class="error-wrapper w-form-fail">
+		<p class="error-message">Oops! Something went wrong while submitting the form :(</p>
+	</div> -->
+
 
 <!-- 		https://developers.google.com/recaptcha/docs/v3 -->
 <!-- 		Si vous êtes un robot intelligent, contactez-moi pour conquérir le monde. -->
 
 
-		<button>Contactez-moi</button>
 
-
+		</div>
 		<h1>Ils m’ont fait confiance</h1>
 
-		<div class="logos">
+		<div class="logos emballage">
 			<img src="images/belin_editeur_logo.png" alt="Belin éditeur" id="logo">
 			<img src="images/Flammarion_logo.jpg" alt="Flammarion" id="logo">
 			<img src="images/Logo_Dunod.JPG" alt="Dunod" id="logo">
@@ -63,6 +85,7 @@
 			<a href="mailto:nbrousse@pm.me" title="Email me !"><i class="far fa-envelope icone"></i></a>
 			<a href="https://www.linkedin.com/in/nathalie-brousse-839a968a/" title="Profil LinkedIn"><i class="fab fa-linkedin-in icone"></i></a>
 			<a href="https://twitter.com/BrousseNathalie" title="Fil Twitter"><i class="fab fa-twitter icone"></i></a>
+			<p>Nathalie Brousse • 2021 • Illustrations : XXXXX</p>
 		</footer>
 	</body>
 
