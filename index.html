@@ -11,29 +11,40 @@
     	<meta property="og:description" content="">
    		<!---------------ajouter les twitter-card, facebook-card--------->
 
-
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-<!-- 		https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
-
+   		<!---------------gérer les différents appareils--------->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
 <!-- <picture>
   <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
   <source media="(min-width: 800px)" srcset="elva-800w.jpg">
   <img src="elva-800w.jpg" alt="Chris debout tenant sa fille Elva dans ses bras">
 </picture> -->
-
-
+<!--  TO DO : faire apparaître des bandes à gauche et à droite pour les écrans très larges -->
 	</head>
 
 	<body>
-
 		<nav>
 			<ul>
 				<li class="nav-home"><a href="index.html">Nathalie Brousse</a></li>
 				<li class="nav-link"><a href="cvitae.html">Qui suis-je ?</a></li>
 				<li class="nav-link"><a href="prestations.html">Prestations</a></li>
-				<li class="nav-link"><a href="contact.html">Contact</a></li>	
+				<li class="nav-link"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
+
+		<div class="dropdown">
+  			<button id="myBtn" class="dropbtn">&#8801;</button>
+  			<div id="myDropdown" class="dropdown-content">
+    			<a class="mobile-active" href="index.html">Accueil</a>
+    			<a class="mobile-link" href="cvitae.html">Qui suis-je ?</a>
+    			<a class="mobile-link" href="prestations.html">Prestations</a>
+    			<a class="mobile-link" href="contact.html">Contact</a>
+  			</div>
+		</div>
+		<script>
+			document.getElementById("myBtn").onclick = function() {dropUPandDOWN()};
+			function dropUPandDOWN() {document.getElementById("myDropdown").classList.toggle("show");}
+		</script>
 
 		<div class="emballage">
 		<div class="opening">

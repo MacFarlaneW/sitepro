@@ -23,6 +23,20 @@
 			</ul>
 		</nav>
 
+		<div class="dropdown">
+  			<button id="myBtn" class="dropbtn">&#8801;</button>
+  			<div id="myDropdown" class="dropdown-content">
+    			<a class="mobile-link" href="index.html">Accueil</a>
+    			<a class="mobile-link" href="cvitae.html">Qui suis-je ?</a>
+    			<a class="mobile-link" href="prestations.html">Prestations</a>
+    			<a class="mobile-active" href="contact.html">Contact</a>
+  			</div>
+		</div>
+		<script>
+			document.getElementById("myBtn").onclick = function() {dropUPandDOWN()};
+			function dropUPandDOWN() {document.getElementById("myDropdown").classList.toggle("show");}
+		</script>
+
 		<header>
 			<h1>Prêt·e à améliorer votre communication scientifique ?</h1>
 		</header>

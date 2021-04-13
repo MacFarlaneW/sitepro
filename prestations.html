@@ -23,10 +23,24 @@
 			</ul>
 		</nav>
 
+		<div class="dropdown">
+  			<button id="myBtn" class="dropbtn">&#8801;</button>
+  			<div id="myDropdown" class="dropdown-content">
+    			<a class="mobile-link" href="index.html">Accueil</a>
+    			<a class="mobile-link" href="cvitae.html">Qui suis-je ?</a>
+    			<a class="mobile-active" href="prestations.html">Prestations</a>
+    			<a class="mobile-link" href="contact.html">Contact</a>
+  			</div>
+		</div>
+		<script>
+			document.getElementById("myBtn").onclick = function() {dropUPandDOWN()};
+			function dropUPandDOWN() {document.getElementById("myDropdown").classList.toggle("show");}
+		</script>
+
 		<header>
 		</header>
 		
-
+		<div class="emballage">
 		<h1>Ce que je peux faire pour vous</h1>
 		<p>
 			- pilotage de projets éditoriaux et édition de livres illustrés et livres noirs<br>
@@ -51,20 +65,23 @@
 			</p>
 
 			<img src="images/belin_essais.jpg" alt="Une photo de moi." id="avatar">
+			<br>
 			<img src="images/belin_illustres.jpg" alt="Une photo de moi." id="avatar">
+			<br>
 			<img src="images/belin_public.jpg" alt="Une photo de moi." id="avatar">
+			<br>
 
 		<div class="center">
 			<a href="contact.html" class="boutonBIG">Faites appel à moi !<a>
 		</div>
-
+		</div>
 
 		<footer>
 			<!---------------mail twitter linkedin--------->
 			<a href="mailto:nbrousse@pm.me" title="Email me !"><i class="far fa-envelope icone"></i></a>
 			<a href="https://www.linkedin.com/in/nathalie-brousse-839a968a/" title="Profil LinkedIn"><i class="fab fa-linkedin-in icone"></i></a>
 			<a href="https://twitter.com/BrousseNathalie" title="Fil Twitter"><i class="fab fa-twitter icone"></i></a>
-
+			<p>Nathalie Brousse • 2021 • Illustrations : XXXXX</p>
 		</footer>
 	</body>
 
