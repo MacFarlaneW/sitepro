@@ -79,6 +79,7 @@ nav{
 	top: 0; 
 	overflow: hidden;
 	width: 100%;
+	z-index: 1;
 }
 
 nav ul {
@@ -219,7 +220,7 @@ nav li a:hover {
 
 
 /* -------------------------------------------------------------- */
-/*------------------------ Page d'accueil ----------------------*/
+/*------------------------ Page d'accueil ------------------------*/
 /* -------------------------------------------------------------- */
 .servicesgrid {
     display: grid;
@@ -253,7 +254,6 @@ nav li a:hover {
 	flex-wrap: wrap-reverse;
 }
 
-
 #heros{
 	width:250px;
 	min-width: 37%;
@@ -267,7 +267,7 @@ nav li a:hover {
 
 
 /* -------------------------------------------------------------- */
-/* -----------------------Page qui suis-je------------------ */
+/* -----------------------Page qui suis-je----------------------- */
 /* -------------------------------------------------------------- */
 #avatar{
  	width: 200px;
@@ -315,7 +315,6 @@ nav li a:hover {
 	grid-column: 2 ;
   	grid-row: 1;
   	text-shadow: 4px 4px 4px #aaa;
-
 }
 
 .howyear{
@@ -323,8 +322,59 @@ nav li a:hover {
   	text-align: center;
   	grid-column: 1 / span 4;
   	grid-row: 2;
-
 }
+
+/* -------------------------------------------------------------- */
+/*-------------------- Page prestations --------------------------*/
+/* -------------------------------------------------------------- */
+
+.bouquin{
+	padding:5px;
+	margin:5px;
+	background-color: rgb(245, 251, 254);
+	display: flex !important;
+	align-items:center;
+}
+
+.bouquin p{
+	font-size: smaller;
+	padding:0;
+	font-weight: 400;
+	margin:0;
+	text-align: left;
+	max-width: 400px;
+}
+
+.bouquin a{
+	text-decoration:none;
+	font-size: smaller;
+	padding-top:15px;
+}
+
+.bouquin img{
+	max-height: 12em;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
+	margin:5px 10px 5px 10px;
+}
+
+.bouquin div{
+	margin-top:15px;
+}
+
+.bouquin-seul img{
+	max-height: 10em;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
+	margin:5px;
+}
+
+.etiquette{
+	text-transform: uppercase;
+	font-weight: bold;
+	color:white;
+	padding:0 2px 0 2px;
+	margin:0px 2px 20px 2px;
+}
+
 
 /* -------------------------------------------------------------- */
 /*-------------------- Page contact--------------------------*/
