@@ -122,3 +122,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-center img{
+    filter:drop-shadow(0 0 0.75rem crimson);
+    transition: filter 1s ease;   
+}
