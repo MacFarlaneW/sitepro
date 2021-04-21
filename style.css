@@ -352,7 +352,7 @@ nav li a:hover {
 }
 
 .bouquin img{
-	max-height: 12em;
+	height: 12em;
 	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
 	margin:5px 10px 5px 10px;
 }
@@ -362,7 +362,7 @@ nav li a:hover {
 }
 
 .bouquin-seul img{
-	max-height: 10em;
+	height: 10em;
 	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
 	margin:5px;
 }
@@ -377,7 +377,7 @@ nav li a:hover {
 
 .bibliotheque2{
 	max-width: 800px;
-	text-align: center;
+	margin:0 auto;
 }
 
 /* -------------------------------------------------------------- */
