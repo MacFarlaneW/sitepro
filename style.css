@@ -172,7 +172,7 @@ nav li a:hover{
   color: var(--paradise-pink);
  }
 
-.dropdown-content a:hover {background-color: #97bfce}
+.dropdown-content a:hover {background-color: #97bfce;}
 
 .show {display:block;}
 
