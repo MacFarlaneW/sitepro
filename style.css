@@ -41,8 +41,8 @@ p{
 	margin-right: 11%;
 }
 
-/* ----------------------Pied de page---------------- */
 
+/* ----------------------Pied de page---------------- */
 
 footer {
   background-color: #DBE9EE;
@@ -103,10 +103,9 @@ nav li a{
 	text-decoration: none;
 	color:var(--paradise-pink);
 	padding-bottom:1em;
- 
 }
 
-nav li a:hover {
+nav li a:hover{
  	color:var(--sunglow);
 }
 
@@ -182,6 +181,7 @@ nav li a:hover {
 
   	.dropbtn{
     	display:initial;
+    	z-index: 3;
 	}
 
 	.nav-link,.nav-active {
@@ -190,7 +190,7 @@ nav li a:hover {
 }
 
 /* -------------------------------------------------------------- */
-/* ---------------------------Boutons en tous genres------------------- */
+/* ---------------------Boutons en tous genres------------------- */
 /* -------------------------------------------------------------- */
 .boutonBIG{
 	background: var(--paradise-pink);
@@ -205,7 +205,6 @@ nav li a:hover {
 .boutonBIG:hover{
 	background: var(--middle-blue-green);
 }
-
 
 .boutonSMALL{
 	text-decoration: none;
@@ -279,7 +278,6 @@ nav li a:hover {
 	justify-content:space-around;
 	align-items: flex-start;
 }
-
 
 .enchiffres{
 	display:flex;
