@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+    	<title>Édition scientifique</title>
+    	<meta name="description" content="Faites appel à une éditrice scientifique pour vos projets !">
+    	<link rel="stylesheet" href="style.css">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    	<!---------------ajouter les twitter-card, facebook-card--------->
+    	<meta property="og:title" content="">
+    	<meta property="og:image" content="">
+    	<meta property="og:description" content="">
+   		<!---------------ajouter les twitter-card, facebook-card--------->
+
+	</head>
+
+	<body>
+
+		<nav>
+			<ul>
+				<li class="nav-home"><a href="index.html">Nathalie Brousse</a></li>
+				<li class="nav-link"><a href="cvitae.html">Qui suis-je ?</a></li>
+				<li class="nav-link"><a href="prestations.html">Prestations</a></li>
+				<li class="nav-link"><a href="contact.html">Contact</a></li>	
+			</ul>
+		</nav>
+
+		<div class="dropdown">
+  			<button id="myBtn" class="dropbtn">&#8801;</button>
+  			<div id="myDropdown" class="dropdown-content">
+    			<a class="mobile-link" href="index.html">Accueil</a>
+    			<a class="mobile-link" href="cvitae.html">Qui suis-je ?</a>
+    			<a class="mobile-active" href="prestations.html">Prestations</a>
+    			<a class="mobile-link" href="contact.html">Contact</a>
+  			</div>
+		</div>
+		<script>
+			document.getElementById("myBtn").onclick = function() {dropUPandDOWN()};
+			function dropUPandDOWN() {document.getElementById("myDropdown").classList.toggle("show");}
+		</script>
+
+		<header>
+		</header>
+		
+		<div class="emballage">
+			<h1>Plan du site</h1>
+            <ul>
+                <li ><a href="index.html">Accueil</a></li>
+                <li ><a href="cvitae.html">Qui suis-je ?</a></li>
+                <li ><a href="prestations.html">Prestations</a></li>
+                <li ><a href="contact.html">Contact</a></li>
+                <li ><a href="mentionslegales.html">Mentions légales</a></li>  
+                <li ><a href="plandusite.html">Plan du site</a></li>      
+            </ul>
+
+		</div>
+		<footer>
+			<!---------------mail twitter linkedin--------->
+			<a href="mailto:nbrousse@pm.me" title="Email me !"><i class="far fa-envelope icone"></i></a>
+			<a href="https://www.linkedin.com/in/nathalie-brousse-839a968a/" title="Profil LinkedIn"><i class="fab fa-linkedin-in icone"></i></a>
+			<a href="https://twitter.com/BrousseNathalie" title="Fil Twitter"><i class="fab fa-twitter icone"></i></a>
+			<p>Nathalie Brousse • 2021 • <a href="mentionslegales.html" class="boutonSMALL">Mentions légales</a></p>
+		</footer>
+	</body>
+
+</html>
