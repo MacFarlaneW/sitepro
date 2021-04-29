@@ -323,8 +323,8 @@ nav li a:hover{
   	grid-row: 2;
 }
 
-.projpers img{
-	height:7em;
+.projpers{
+	max-height:7em;
 }
 
 /* -------------------------------------------------------------- */
