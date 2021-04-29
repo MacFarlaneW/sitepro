@@ -15,6 +15,7 @@
 body{
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
+	background-color: #74aabe;
 }
 
 h1{
@@ -39,6 +40,10 @@ p{
 .emballage{
 	margin-left:11%;
 	margin-right: 11%;
+	max-width: 1000px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: white;
 }
 
 
@@ -50,7 +55,6 @@ footer {
   height: 2em;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 30px;
 }
 
 footer p{
@@ -153,6 +157,7 @@ nav li a:hover{
   background-color: #DBE9EE;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:3;
 }
 
 .dropdown-content a {
@@ -186,6 +191,11 @@ nav li a:hover{
 
 	.nav-link,.nav-active {
     	display:none;
+    }
+
+    .emballage{
+    	margin-left:0;
+		margin-right:0;
     }
 }
 
@@ -258,6 +268,7 @@ nav li a:hover{
 	width:250px;
 	min-width: 37%;
  	object-fit: contain;
+ 	margin-left: 5px;
 }
 
 .habillage{
