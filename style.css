@@ -336,8 +336,8 @@ nav li a:hover{
 }
 
 .projpers{
-	max-height:7em;
-
+	height:8em;
+	object-fit: contain;
 }
 
 .galerie-photo{
