@@ -181,8 +181,10 @@ nav li a:hover{
 
 .show {display:block;}
 
+/* Règles CSS ui s'appliquent pour les petites largeurs d'écran */
+
 @media all and (max-width: 750px)
-{    /* Règles CSS qui s'appliquent pour les petites largeurs d'écran */
+{  
 
   	.dropbtn{
     	display:initial;
@@ -257,7 +259,6 @@ nav li a:hover{
 }
 
 .opening{
-	margin-top: 2em;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -268,12 +269,12 @@ nav li a:hover{
 	width:250px;
 	min-width: 37%;
  	object-fit: contain;
- 	margin-left: 5px;
+ 	margin: 0 10px;
 }
 
 .habillage{
 	flex:1;
-	min-width: 300px;
+	min-width: 340px;
 }
 
 
@@ -336,7 +337,13 @@ nav li a:hover{
 
 .projpers{
 	max-height:7em;
+
 }
+
+.galerie-photo{
+    margin: 0 30px;
+}
+
 
 /* -------------------------------------------------------------- */
 /*-------------------- Page prestations --------------------------*/
@@ -378,7 +385,7 @@ nav li a:hover{
 .bouquin-seul img{
 	height: 10em;
 	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
-	margin:5px;
+	margin:20px;
 }
 
 .etiquette{
@@ -392,7 +399,15 @@ nav li a:hover{
 .bibliotheque2{
 	max-width: 600px;
 	margin:0 auto;
+	background-color: #eef4f7;
 }
+
+.bibliotheque3{
+	max-width: 91%;
+	margin:0 auto;
+	background-color: #eef4f7;
+}
+
 
 /* -------------------------------------------------------------- */
 /*-------------------- Page contact--------------------------*/
@@ -427,7 +442,7 @@ nav li a:hover{
 form{
   margin: 0 auto;
   width: 80%;
-  max-width: 400px;
+  max-width: 380px;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
@@ -436,7 +451,7 @@ form{
 input, textarea {
 	font-family: 'Raleway', sans-serif;
   /* Pour que tous les champs texte aient la même dimension */
-  	max-width: 380px;
+  	max-width: 360px;
   	width: 70%;
   	box-sizing: border-box;
   	border: 1px solid #999;
