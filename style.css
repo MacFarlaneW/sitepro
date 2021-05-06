@@ -209,6 +209,10 @@ nav li a:hover{
     	margin-bottom:10px;
     	margin-top: 5px;
     }
+
+    .services {
+    margin: 20px 10px 20px 10px !important;
+	}
 }
 
 /* -------------------------------------------------------------- */
