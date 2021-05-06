@@ -198,6 +198,7 @@ nav li a:hover{
     .emballage{
     	margin-left:0;
 		margin-right:0;
+		overflow-x: hidden;
     }
 }
 
@@ -269,7 +270,7 @@ nav li a:hover{
 	width:250px;
 	min-width: 37%;
  	object-fit: contain;
- 	margin: 0 10px;
+ 	margin: 20px 10px;
 }
 
 .habillage{
@@ -313,8 +314,10 @@ nav li a:hover{
 .whatyear{
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
+	color:var(--green-blue-crayola);
+	font-weight: 600;
 	text-align: left;
-  	grid-column: 3 ;
+  	grid-column: 4 ;
   	grid-row: 1 ;
 }
 
@@ -336,8 +339,9 @@ nav li a:hover{
 }
 
 .projpers{
-	height:8em;
-	object-fit: contain;
+	max-height:8em;
+	object-fit: contain !important;
+	padding:2px;
 }
 
 .galerie-photo{
@@ -355,6 +359,7 @@ nav li a:hover{
 	background-color: rgb(245, 251, 254);
 	display: flex !important;
 	align-items:center;
+	max-width: 480px;
 }
 
 .bouquin p{
@@ -397,7 +402,7 @@ nav li a:hover{
 }
 
 .bibliotheque2{
-	max-width: 600px;
+	max-width: 500px;
 	margin:0 auto;
 	background-color: #eef4f7;
 }
