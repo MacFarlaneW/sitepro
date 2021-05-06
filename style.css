@@ -200,6 +200,10 @@ nav li a:hover{
 		margin-right:0;
 		overflow-x: hidden;
     }
+
+    .quisuisje{
+    	flex-direction: column;
+    }
 }
 
 /* -------------------------------------------------------------- */
