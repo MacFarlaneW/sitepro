@@ -12,6 +12,12 @@
    		<!---------------ajouter les twitter-card, facebook-card--------->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	    <script>
+       			function onSubmit(token) {
+        			 document.getElementById("contact-form").submit();
+       			}
+     </script>
+
 	</head>
 
 	<body>
@@ -49,7 +55,7 @@
 			En tant que <i>digital nomad</i>, je suis disponible pour vous partout dans le monde... à partir du moment où vous avez une connexion internet&nbsp;! <br>Je peux également me déplacer ponctuellement dans vos locaux, en France et ailleurs, ou effectuer des missions courtes (de quelques semaines à quelques mois) en 100&#8239;% présentiel.
 			</p>
 
-	<form action="https://formsubmit.co/b19288d59bfd1cf83a95c6d13b25244d" method="post">
+	<form id='contact-form' action="https://formsubmit.co/b19288d59bfd1cf83a95c6d13b25244d" method="post">
 		<p> Laissez-moi un message&nbsp;!</p>
 		<div>
 			<label for="name" class="form-label">Nom :</label>
@@ -65,9 +71,7 @@
 		</div>
 		<input type="hidden" name="_next" value="https://macfarlanew.github.io/sitepro/succes.html">
 		<input type="hidden" name="_captcha" value="false">
-		<div class="g-recaptcha" data-sitekey="6LctQckaAAAAAGacpbYMiGMp_n5TdT82F0PcyLtY"></div>
-
-<!-- 		https://developers.google.com/recaptcha/docs/v3 -->
+		<!-- 		https://developers.google.com/recaptcha/docs/v3 -->
 <!-- 		Si vous êtes un robot intelligent, contactez-moi pour conquérir le monde. -->		
 		<input type="submit" value="Envoyer" class="boutonBIG"/>
 	</form>
