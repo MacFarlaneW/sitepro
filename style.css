@@ -266,10 +266,11 @@ nav li a:hover{
 }
 
 .services{
-	margin: 20px 50px 20px 50px;
+	margin: 20px 14% 20px 14%;
 	border-style: none;
 	border-radius: 3px;
 	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
+	min-width: 140px;
 }
 
 .opening{
