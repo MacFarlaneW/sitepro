@@ -83,13 +83,10 @@
 		<script>
 			document.getElementById("boutonEnvoi").onclick = function() {
 				var saisie =document.getElementById("Nom").value; 
-				console.log(saisie); 
 				var lec = encodeURI(saisie);
-				console.log(lec);
 				modifURL(lec);
 			};
 			function modifURL(chaine) {
-				console.log(chaine);
 				document.getElementById("redirect").value ='https://macfarlanew.github.io/sitepro/succes.html?'+ chaine ;
 			}
 		</script>
