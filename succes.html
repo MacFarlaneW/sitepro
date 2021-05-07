@@ -48,8 +48,19 @@
 			En tant que <i>digital nomad</i>, je suis disponible pour vous partout dans le monde... à partir du moment où vous avez une connexion internet&nbsp;! <br>Je peux également me déplacer ponctuellement dans vos locaux, en France et ailleurs, ou effectuer des missions courtes (de quelques semaines à quelques mois) en 100&#8239;% présentiel.
 			</p>
 
+
+			<script language="JavaScript">
+  					function processUser()
+  					{
+    				var parameters = location.search.substring(1).split("&");
+   					var temp = parameters[0].split("=");
+    				l = unescape(temp[1]);
+   					document.getElementById("Nom").innerHTML = l;
+ 					}
+			</script>
+
 	<form action=# method="post">
-		<p> &#9989; <i>Votre message a bien été envoyé&nbsp;!</i>
+		<p> &#9989; <i>Merci <span id="Nom">Votre nom</span>&nbsp;!<br> Votre message a bien été envoyé.</i>
 				<br>Je reviendrai vers vous très prochainement.
 		</p>
 	</form>
