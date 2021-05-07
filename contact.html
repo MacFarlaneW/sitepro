@@ -58,7 +58,7 @@
 
 
 	<form id='contact-form' action="https://formsubmit.co/b19288d59bfd1cf83a95c6d13b25244d" method="post">
-		<p> Laissez-moi un message&nbsp;!</p>
+		<div class="center" style="color:var(--middle-blue-green)"><p><b>Laissez-moi un message&nbsp;!</b></p></div>
 		<div>
 			<label for="name" class="form-label">Nom :</label>
 			<input type="text" id="Nom" name="Nom" maxlength="256" required class="form-field"/>
@@ -77,9 +77,10 @@
 		<input type="text" name="_honey" style="display:none">
 		<!-- 		https://developers.google.com/recaptcha/docs/v3 -->
 		<!-- 		Si vous êtes un robot intelligent, contactez-moi pour conquérir le monde. -->
-		<input id="boutonEnvoi" type="submit" value="Envoyer" class="boutonBIG"/>
+		<div class="center"><input id="boutonEnvoi" type="submit" value="Envoyer" class="boutonBIG"/></div>
 	</form>
 
+<!---- script récupérant le nom saisi à l'envoi du formulaire pour page "succès" personnalisée -->
 		<script>
 			document.getElementById("boutonEnvoi").onclick = function() {
 				var saisie =document.getElementById("Nom").value; 
@@ -90,6 +91,7 @@
 				document.getElementById("redirect").value ='https://macfarlanew.github.io/sitepro/succes.html?'+ chaine ;
 			}
 		</script>
+<!-------------------------------------------------------------------->
 
 		<h1>En chiffres</h1>
 			<div class="enchiffres">
