@@ -35,6 +35,13 @@ p{
 	font-weight: 400;
 	line-height: 1.5em;
 	margin:20px 10px 20px 10px;
+
+	word-wrap: break-word;
+  	overflow-wrap: break-word;
+	-webkit-hyphens: auto;
+  	-moz-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphens: auto;
 }
 
 .emballage{
@@ -233,9 +240,7 @@ nav li a:hover{
 		width: 94% ;
 	}
 
-	.bouquin p{
-		width: 94% ;
-	}
+
 }
 
 /* -------------------------------------------------------------- */
