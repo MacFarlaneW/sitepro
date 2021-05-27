@@ -248,7 +248,9 @@ nav li a:hover{
 		width: 94% ;
 	}
 
-
+	#heros-contact{
+		display:none;		
+	}
 }
 
 /* -------------------------------------------------------------- */
@@ -526,4 +528,11 @@ textarea{
   vertical-align: top;
   height: 7em;
   resize: none;
+}
+
+
+#heros-contact{
+	height:200px;
+ 	object-fit: contain;
+ 	margin-left: 10px;
 }
