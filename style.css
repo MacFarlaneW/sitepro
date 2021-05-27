@@ -251,6 +251,11 @@ nav li a:hover{
 	#heros-contact{
 		display:none;		
 	}
+
+	.enchiffres{
+		flex-direction:column;
+	}
+
 }
 
 /* -------------------------------------------------------------- */
@@ -361,6 +366,7 @@ nav li a:hover{
 	display:grid;
  	grid-template-columns: 20px minmax(min-content,min-content) 10px 20px;
   	grid-template-rows: 70px 1fr;
+  	margin-top:40px;
 }
 
 .chiffres p{
