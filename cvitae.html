@@ -70,7 +70,7 @@
 				<h2>Galerie de projets</h2>
 				<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   				<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
-				<div class="galerie-photo">			
+				<div class="galerie-photo galerie-param">			
 					<img src="images/metalearth-600px.jpg" alt="Opportunity by Metal Earth." class="projpers">
 					<img src="images/photogra-600px.jpg" alt="Test de photogrammétrie." class="projpers">
 					<img src="images/universe-600px.jpg" alt="Décor." class="projpers">
@@ -79,7 +79,6 @@
 					<img src="images/raspie_three-600px.png" alt="Décors en MagicaVoxel." class="projpers">
 					<img src="images/zombie1-600px.jpg" alt="Figurines Zombicide avant peinture." class="projpers">
 					<img src="images/zombie2-600px.jpg" alt="Peinture de figurines Zombicide." class="projpers">
-					<img src="images/zombie3-600px.jpg" alt="Peinture de figurines Zombicide." class="projpers">
 					<img src="images/coffreUGears-600px.jpg" alt="Coffre-fort mécanique U-Gears." class="projpers">
 				</div>
 				
@@ -87,7 +86,8 @@
 				$('.galerie-photo').slick({
  					dots: false,
  					variableWidth: true,
- 					autoplay:true 				
+ 					autoplay:true,
+ 					slidesToShow:1
 					});
 				</script>
 

@@ -403,12 +403,13 @@ nav li a:hover{
 }
 
 .projpers{
-	max-height:8em;
-	object-fit: contain !important;
+	height:8em;
+	max-width:12em;
+	object-fit: cover !important;
 	padding:2px;
 }
 
-.galerie-photo{
+.galerie-param{
     margin: 0 25px;
 }
 
