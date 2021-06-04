@@ -1,0 +1,18 @@
+
+
+Entourer du texte : 	text-shadow: -1px 0 var(--paradise-pink), 0 1px var(--paradise-pink),
+      1px 0 var(--paradise-pink), 0 -1px var(--paradise-pink);
+
+
+Différents effets
+	 text-shadow: 0 0 0.2em #fff48b, 0 0 0.2em #fff48b,
+        0 0 0.2em #fff48b;
+  text-shadow: 0.1em 0.1em 0.2em #fff48b;
+  text-shadow: -3px 1px 2px #25628d, 0 0 2em red;
+
+
+<!-- TO DO : présenter du texte en livre https://codepen.io/mina-mounir/pen/gOPppdv ou encore https://codepen.io/HighFlyer/pen/LaXrgV-->
+<!--  TO DO : flat design sur les boutons, http://je-tripote-au-lycee.blogg.org/css-une-ombre-portee-en-diagonale-sur-du-texte-a128454800 -->
+<!--  TO DO : utiliser Sass ????? des fonctions dans le CSS voir https://codepen.io/IMarty/pen/WOvvEE -->
+<!--  TO DO : 	effet sympa sur citations https://codepen.io/dan10gc/pen/bLYBQJ, https://codepen.io/mayurelbhar/pen/wBvGbX -->
+ <!--  TO DO : 	faire des animations compliquées en css https://codepen.io/dan10gc/pen/bLYBQJ, voir aussi https://codepen.io/lbebber/pen/BzoHi  -->

@@ -6,7 +6,7 @@
     	<link rel="stylesheet" href="style.css">
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     	<link rel="icon" type="image/png" href="images/logo.png"/>
-    	<!---------------définition des twitter-card, facebook-card--------->
+    	<!--  définition des twitter-card, facebook-card  -->
     	<meta property="og:title" content="Édition scientifique free-lance">
     	<meta property="og:description" content="Faites appel à une éditrice scientifique pour vos projets !">
     	<meta property="og:image" content="https://macfarlanew.github.io/sitepro/images/Twitter-card.png">
@@ -14,27 +14,23 @@
     	<meta property="og:url" content="https://macfarlanew.github.io/sitepro/index.html">
     	<meta name="twitter:card" content="summary_large_image">
 
-   		<!---------------gérer les différents appareils--------->
+   		<!-- gérer les différents appareils -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
-<!-- <picture>
-  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
-  <source media="(min-width: 800px)" srcset="elva-800w.jpg">
-  <img src="elva-800w.jpg" alt="Chris debout tenant sa fille Elva dans ses bras">
-</picture> -->
-<!--  TO DO : faire apparaître des bandes à motifs à gauche et à droite pour les écrans très larges -->
+<!--  TO DO : enrichir les bandes à gauche et à droite pour les écrans très larges -->
 <!--  TO DO : traquer le comportement des internautes (analytics.google.com ou hotjar) -->
 <!--  TO DO : tester la vitesse sur Page Speed Insight -->
 <!--  TO DO : s'occuper du référencement -->
 <!--  TO DO : rassembler tous les scripts dans un même fichier js-->
 <!--  TO DO : créer un fichier 404.md-->
-<!--  TO DO : compléter les ouvrages dans prestations-->
 <!--  TO DO : ajouter la possibilité de filtrage dans prestations-->
 <!--  TO DO : ajouter un truc rigolo sur la page "qui suis-je" (robot, boutons, ...)-->
-<!--  TO DO : mettre en place un bot qui vérifie si les liens vers les sites tiers ne sont pas cassés-->
-<!--  TO DO : corriger le souci de carousel dans Chrome (OK Firefox)-->
+<!--  TO DO : mettre en place un bot qui vérifie périodiquement si les liens vers les sites tiers ne sont pas cassés-->
+<!--  TO DO : corriger le souci de carousel dans Chrome (OK Firefox) pour Qui suis-je-->
 <!--  TO DO : améliorer responsivité du carousel sur smartphone-->
 <!--  TO DO : présenter les prestations de façon plus synthétique et sexy-->
+<!--  TO DO : faire le tri dans les polices chargées inutiles -->
+<!--  TO DO : vérifier la conformité du code dans https://validator.w3.org  -->
+
 	</head>
 
 	<body>
@@ -66,7 +62,10 @@
 			<img src="images/superscience.png" alt="Un spécialiste à votre service" id="heros">
 			<div class="habillage">
 				<h1>Faites appel à un éditeur scientifique pour vos projets</h1>
-				<h2>C’est le moyen le plus sûr et le plus efficace d’aboutir à un résultat de qualité !</h2>
+				<div class="center">
+						<span style="font-weight: 800;color: var(--paradise-pink); margin:0 auto;">● ● ●</span>
+				</div>
+				<h3>C’est le moyen le plus sûr et le plus efficace d’aboutir à un résultat de qualité&nbsp;!</h3>
 				<p>Scientifique de formation et éditrice free-lance, je vous propose d’intervenir sur vos projets éditoriaux, papier ou numérique.<br> J’ai une longue expérience dans l’édition de textes scientifiques, rédigés par tous types d’auteurs (chercheurs, enseignants, journalistes, passionnés de science, etc.) et pour tous types de lecteurs.<br>
 				Que vous travailliez dans les domaines scolaire, parascolaire et universitaire, ou que vous vous adressiez au grand public, vos textes méritent une relecture autant sur la forme que sur le fond.</p>
 				
@@ -77,23 +76,22 @@
 		</div>
 		
 	<div class="fondjoli">
-		<h1>Dopez vos textes scientifiques</h1>
-		<h2></h2>
+		<h2>Dopez vos textes scientifiques</h2>
 		<div class="servicesgrid">
 			<div class="services">
-				<img src="images/lectorat.png" alt="Touchez votre lectorat" id="serviceL">
+				<img src="images/lectorat.png" alt="Touchez votre lectorat" class="serviceL">
 				<p> Touchez un lectorat plus large</p>
 			</div>
 			<div class="services">
-				<img src="images/comm.png" alt="Améliorez votre communication" id="serviceL">
+				<img src="images/comm.png" alt="Améliorez votre communication" class="serviceL">
 				<p> Améliorez votre communication</p>
 			</div>
 			<div class="services">
-				<img src="images/attention.png" alt="Captez l’attention" id="serviceL">
+				<img src="images/attention.png" alt="Captez l’attention" class="serviceL">
 				<p> Captez l’attention</p>
 			</div>
 			<div class="services">
-				<img src="images/verif.png" alt="Vérifiez vos contenus" id="serviceL">
+				<img src="images/verif.png" alt="Vérifiez vos contenus" class="serviceL">
 				<p> Vérifiez vos contenus</p>
 			</div>
 		</div>
@@ -101,12 +99,12 @@
 			<a href="prestations.html" class="boutonSMALL">En savoir plus -></a>
 		</div> 
 	</div>
-				<h1>Vos textes scientifiques méritent un spécialiste</h1>
+				<h2>Vos textes scientifiques méritent un spécialiste</h2>
 				<p> Dans un monde envahi par la désinformation, la voix des scientifiques est plus que jamais cruciale. Mais la communication scientifique n’est pas toujours facile.<br>
-			D’un côté, le public, qui s’effraiera peut-être du jargon technique ou butera sur une formule ; et surtout, dont l’attention est rapidement volatile.<br>
+			D’un côté, le public, qui s’effraiera peut-être du jargon technique ou butera sur une formule&nbsp;; et surtout, dont l’attention est rapidement volatile.<br>
 			De l’autre, le rédacteur, qui le plus souvent n’est pas habitué à vulgariser.<br>
-			En outre des accidents sont susceptibles de se produire tout au long de la chaîne éditoriale, faute d’employer les "bons" intervenants. Le risque : écorner votre image auprès du public, avec lequel vous souhaiteriez plutôt installer une relation de confiance ; et dans le pire des cas, le <i>bad buzz</i> guette...<br>
- 			Bref, la communication scientifique est un parcours semé d’embûches ! 			
+			En outre des accidents sont susceptibles de se produire tout au long de la chaîne éditoriale, faute d’employer les "bons" intervenants. Le risque&nbsp;: écorner votre image auprès du public, avec lequel vous souhaiteriez plutôt installer une relation de confiance&nbsp;; et dans le pire des cas, le <i>bad buzz</i> guette...<br>
+ 			Bref, la communication scientifique est un parcours semé d’embûches&nbsp;! 			
 				</p>
 				<div class="center">
 					<a href="prestations.html" class="boutonBIG">Découvrir mes solutions</a>

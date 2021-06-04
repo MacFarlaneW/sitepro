@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
@@ -20,22 +20,35 @@ body{
 }
 
 h1{
-	color:var(--middle-blue-green);
 	text-align: center;
 	margin:50px 10px 0 10px;
-	padding:10px 0;
+	padding-top:10px;
+	font-weight: 700;
+	color: var(--middle-blue-green);
+	margin-bottom: 10px;
 }
 
 h2{
-	color:var(--green-blue-crayola);
-	font-family: 'Raleway', sans-serif;
+	color:var(--middle-blue-green);
+	font-weight: 600;
 	text-align: center;
-	margin:30px 10px 10px 10px;
+	margin:50px 10px 0 10px;
+	padding:10px 0;
+	font-size: xx-large;
+}
+
+h3{
+	color:var(--green-blue-crayola);
+	font-weight: 600;
+	text-align: center;
+	margin:20px 10px 10px 10px;
+	font-size: x-large;
 }
 
 p{
 	padding:0px 15px 0px 15px;
 	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.5em;
 	margin:20px 10px 20px 10px;
 
@@ -69,7 +82,7 @@ footer {
   text-align: center;
   height: 2em;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 footer p{
@@ -139,6 +152,7 @@ nav li a:hover{
 }
 
 .nav-home{
+	background-color:var(--blue-violet-color-wheel);
 }
 
 /* Menu dropdown pour navigation mobile */
@@ -297,7 +311,7 @@ nav li a:hover{
     text-align: center;
 }
 
-#serviceL{
+.serviceL{
  	max-height: 150px;
  	padding-top:5px;
 }
@@ -305,16 +319,18 @@ nav li a:hover{
 .servicesgrid p{
 	font-size: small;
 	font-weight: 600;
+	color: var(--blue-violet-color-wheel);
 	margin: 0px 10px 0px 0px;
 }
 
 .services{
 	margin: 20px 14% 20px 14%;
 	border-style: none;
-	border-radius: 3px;
+	border-radius: 10px;
 	box-shadow: 0 0 0 1px rgba(0,0,0,.09);
 	min-width: 140px;
 	max-width: 250px;
+	background-color: white;
 }
 
 .opening{
