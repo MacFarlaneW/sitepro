@@ -145,6 +145,10 @@ nav li a:hover{
 	background-color: #FFFFFF;
 }
 
+.nav-home a{
+	color:var(--sunglow);
+}
+
 .nav-link:hover{
 	transition-property: background-color;
 	transition-duration: 1s;
