@@ -367,6 +367,11 @@ nav li a:hover{
 	padding-top: 1em;
 }
 
+#separateur2{
+	width: 15em;
+	padding-top: 4em;
+}
+
 
 /* -------------------------------------------------------------- */
 /* -----------------------Page qui suis-je----------------------- */
@@ -506,7 +511,7 @@ nav li a:hover{
 
 
 .separateur-star{
-		color: var(--paradise-pink);
+		color: var(--green-blue-crayola);
 }
 
 
