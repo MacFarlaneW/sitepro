@@ -248,6 +248,12 @@ nav li a:hover{
     margin: 20px 10px 20px 10px !important;
 	}
 
+
+	fieldset {
+ 		max-width: 80% !important;
+ }
+
+
 }
 
 
@@ -522,6 +528,10 @@ fieldset {
  	border-radius: 10px;
  	max-width: 500px;
 	margin:  2em auto;
+ }
+
+fieldset p{
+ 	margin: 6px 0;
  }
 
 /* -------------------------------------------------------------- */
