@@ -285,10 +285,13 @@ nav li a:hover{
 		width: 94% ;
 	}
 
-		.bouquin img{
+	.bouquin img{
 			height: 12em !important;
 	}
 
+	.bouquin-description{
+			text-align: center;
+	}
 
 
 	#heros-contact{
