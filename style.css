@@ -276,7 +276,7 @@ nav li a:hover{
 	.bouquin {
 		max-width: 94% !important;
 		flex-direction:column;
-		height: 30em !important;
+		height: 28em !important;
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
@@ -284,6 +284,12 @@ nav li a:hover{
 	.bouquin div{
 		width: 94% ;
 	}
+
+		.bouquin img{
+			height: 12em !important;
+	}
+
+
 
 	#heros-contact{
 		display:none;		
