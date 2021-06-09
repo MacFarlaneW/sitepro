@@ -279,7 +279,6 @@ nav li a:hover{
 		height: 30em !important;
 		overflow-x: hidden;
 		overflow-y: auto;
-
 	}
 
 	.bouquin div{
@@ -478,6 +477,7 @@ nav li a:hover{
 	padding:5px;
 	margin:5px;
 	background-color: rgb(245, 251, 254);
+	border-radius: 30px;
 	display: flex !important;
 	align-items:center;
 	max-width: 480px;
@@ -536,6 +536,7 @@ nav li a:hover{
 	max-width: 500px;
 	margin:0 auto;
 	background-color: #eef4f7;
+	border-radius: 30px;
 }
 
 .bibliotheque3{
