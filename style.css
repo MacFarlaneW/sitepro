@@ -215,7 +215,10 @@ nav li a:hover{
 
 .show {display:block;}
 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* Règles CSS qui s'appliquent pour les petites largeurs d'écran */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
 
 @media all and (max-width: 800px)
 {  
@@ -273,6 +276,10 @@ nav li a:hover{
 	.bouquin {
 		max-width: 94% !important;
 		flex-direction:column;
+		height: 30em !important;
+		overflow-x: hidden;
+		overflow-y: auto;
+
 	}
 
 	.bouquin div{
@@ -474,6 +481,9 @@ nav li a:hover{
 	display: flex !important;
 	align-items:center;
 	max-width: 480px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 16em;
 }
 
 .bouquin p{
@@ -513,6 +523,13 @@ nav li a:hover{
 	color:white;
 	padding:0 2px 0 2px;
 	margin:0px 2px 20px 2px;
+}
+
+.bouquin-description{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+	height: 14em;
 }
 
 .bibliotheque2{
