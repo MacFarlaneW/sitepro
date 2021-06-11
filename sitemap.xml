@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://www.xml-sitemaps.com/sitemap.xsl"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="
-            http://www.sitemaps.org/schemas/sitemap/0.9
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://macfarlanew.github.io/sitepro/</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://macfarlanew.github.io/sitepro/index.html</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://macfarlanew.github.io/sitepro/cvitae.html</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://macfarlanew.github.io/sitepro/prestations.html</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://macfarlanew.github.io/sitepro/contact.html</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://macfarlanew.github.io/sitepro/mentionslegales.html</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://macfarlanew.github.io/sitepro/download/BrousseNathalie_CV_.pdf</loc>
-  <lastmod>2021-06-11T13:56:04+00:00</lastmod>
+  <lastmod>2021-06-11T14:15:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
