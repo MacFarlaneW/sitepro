@@ -52,12 +52,13 @@ p{
 	line-height: 1.5em;
 	margin:20px 10px 20px 10px;
 
-  overflow-wrap: break-word;
+/* problème ici pour les césures peu intelligentes, à voir */
+/*  overflow-wrap: break-word;
 	-webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -o-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
 }
 
 input{
