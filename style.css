@@ -581,6 +581,21 @@ fieldset p{
  	margin: 6px 0;
  }
 
+ fieldset h2 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin:6px 0;
+	color:black;
+ }
+
+ fieldset li:not(:first-child):before{
+  	content: '●  \a' attr(title);
+    white-space: pre;
+    color: var(--paradise-pink);
+    	line-height: 1.5em;
+ }
+
 /* -------------------------------------------------------------- */
 /*------------------------- Page contact--------------------------*/
 /* -------------------------------------------------------------- */
