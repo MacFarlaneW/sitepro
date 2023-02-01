@@ -500,9 +500,16 @@ nav li a{
 
 
 /* -------------------------------------------------------------- */
-/*-------------------- Page prestations --------------------------*/
+/*-------------------- Page portfolio --------------------------*/
 /* -------------------------------------------------------------- */
 
+
+#scolaire{
+	width:300px;
+	min-width: 65%;
+ 	object-fit: contain;
+ 	margin: 20px 10px;
+}
 
 .bouquin{
 	padding:5px;
@@ -538,6 +545,7 @@ nav li a{
 	margin:5px 10px 5px 10px;
 }
 
+
 .bouquin div{
 	margin-top:15px;
 }
@@ -571,6 +579,19 @@ nav li a{
 }
 
 .bibliotheque3{
+	max-width: 85%;
+	margin:0 auto;
+	background-color: #eef4f7;
+}
+
+.bibliotheque4{
+	max-width: 500px;
+	margin:0 auto;
+	background-color: #eef4f7;
+	border-radius: 30px;
+}
+
+.bibliotheque5{
 	max-width: 85%;
 	margin:0 auto;
 	background-color: #eef4f7;
