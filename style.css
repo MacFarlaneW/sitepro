@@ -283,6 +283,10 @@ nav li a{
 		max-width: 85% !important;
 	}
 
+	.bibliotheque4{
+		max-width: 85% !important;
+	}
+
 	.bouquin {
 		max-width: 94% !important;
 		flex-direction:column;
