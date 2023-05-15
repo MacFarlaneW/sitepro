@@ -22,11 +22,13 @@
 
 	<body>
 
+
 		<nav>
 			<ul>
 				<li class="nav-home"><a href="index.html">Nathalie Brousse</a></li>
 				<li class="nav-link"><a href="cvitae.html">Qui suis-je ?</a></li>
-				<li class="nav-link"><a href="prestations.html">Prestations</a></li>
+				<li class="nav-link"><a href="portfolio.html">Portfolio</a></li>
+                <li class="nav-link"><a href="prestations.html">Prestations</a></li>
 				<li class="nav-active"><a href="contact.html">Contact</a></li>	
 			</ul>
 		</nav>
@@ -36,6 +38,7 @@
   			<div id="myDropdown" class="dropdown-content">
     			<a class="mobile-link" href="index.html">Accueil</a>
     			<a class="mobile-link" href="cvitae.html">Qui suis-je ?</a>
+                <a class="mobile-link" href="portfolio.html">Portfolio</a>
     			<a class="mobile-link" href="prestations.html">Prestations</a>
     			<a class="mobile-active" href="contact.html">Contact</a>
   			</div>
@@ -50,10 +53,14 @@
 		</header>
 		
 		<div class="emballage">
-			<h1>Prêt·e à améliorer votre communication scientifique&nbsp;?</h1>
-			<p>
-			En tant que <i>digital nomad</i>, je suis disponible pour vous partout dans le monde... à partir du moment où vous avez une connexion internet&nbsp;! <br>Je peux également me déplacer ponctuellement dans vos locaux, en France et ailleurs, ou effectuer des missions courtes (de quelques semaines à quelques mois) en 100&#8239;% présentiel.
-			</p>
+			<div class="opening">
+				<img src="images/contact.png" alt="Une spécialiste à votre service" id="heros-contact">
+				<div class="habillage">
+					<h1>Prêt·e à améliorer votre <br>communication scientifique&nbsp;?</h1>
+					<p> En tant que <i lang="en">digital nomad</i>, je suis disponible pour vous partout dans le monde... à partir du moment où vous avez une connexion internet&nbsp;! <br>Je peux également me déplacer ponctuellement dans vos locaux, en France et ailleurs, ou effectuer des missions courtes (de quelques semaines à quelques mois) en 100&#8239;% présentiel.
+					</p>
+				</div>	
+			</div>
 
 		<form action=# method="post">
 			<p> &#9989; <i>Votre message a bien été envoyé.</i><br>
@@ -68,40 +75,27 @@
 				document.getElementById("NomContact").innerHTML = lec;
 		</script>
 
-		<h1>En chiffres</h1>
-			<div class="enchiffres">
-				<div class="chiffres">
-					<p class="year">10</p>
-					<p class="whatyear">ans</p>
-					<p class="howyear">d’expérience éditoriale</p>
-				</div>
-				<p class="year">&lt; &lt; </p>
-				<div class="chiffres">
-			 		<p class="year">70</p>
-			 		<p class="whatyear">livres</p>
-			 		<p class="howyear">publiés dans le respect des délais, des coûts et des auteurs</p>
-			 	</div>
-			 	<p class="year">&lt; &lt; </p>
-			 	<div class="chiffres">
-			 		<p class="year">190</p>
-			 		<p class="whatyear">auteurs</p>
-			 		<p class="howyear">pilotés du manuscrit au livre imprimé</p>
-				</div>
-			</div>
-
-		
-		<h1>Ils m’ont fait confiance</h1>
-
+		<h2>Ils m’ont fait confiance</h2>
+<!-- 		<div class="center">
+						<img src="images/swirl7.png" alt="Séparateur de texte" id="separateur">
+				</div> -->
 		<div class="logos">
-			<img src="images/belin_editeur_logo.png" alt="Belin éditeur" height="40" id="logo">
-			<img src="images/Flammarion_logo.jpg" alt="Flammarion" height="30" id="logo">
-			<img src="images/Logo_Dunod.JPG" alt="Dunod" height="65" id="logo">
-			<img src="images/stock_logo.png" alt="Stock" height="35" id="logo">
-			<img src="images/bordas_logo.png" alt="Bordas" height="40" id="logo">
-			<img src="images/nathan_logo.png" alt="Nathan" height="40" id="logo">
-			<img src="images/magnard_logo.png" alt="Magnard" height="30" id="logo">
-			<img src="images/logo-belin-education.png" alt="Belin éducation" height="40" id="logo">
-			<img src="images/ensba_logo.jpg" alt="Beaux-Arts de Paris éditions" height="20" id="logo">
+			<img src="images/Flammarion_logo.jpg" alt="Flammarion" height="30" class="logo-img">
+			<img src="images/Logo_Dunod.JPG" alt="Dunod" height="65" class="logo-img">
+			<img src="images/quae-logo.png" alt="Quae" height="50" class="logo-img">
+			<img src="images/belin_editeur_logo.png" alt="Belin éditeur" height="40" class="logo-img">
+			<img src="images/logo_sciences-pour tous.jpg" alt="Sciences pour tous" height="50" class="logo-img">
+			<img src="images/stock_logo.png" alt="Stock" height="28" class="logo-img">
+			<img src="images/bordas_logo.png" alt="Bordas" height="40" class="logo-img">
+			<img src="images/nathan_logo.png" alt="Nathan" height="40" class="logo-img">
+			<img src="images/magnard_logo.png" alt="Magnard" height="30" class="logo-img">
+			<img src="images/Logo_Hachette.JPG" alt="Hachette Pratique" height="60" class="logo-img">
+			<img src="images/logo-belin-education.png" alt="Belin éducation" height="40" class="logo-img">
+			<img src="images/logo_etudiant.png" alt="L'Etudiant éditions" height="60" class="logo-img">
+			<img src="images/ensba_logo.jpg" alt="Beaux-Arts de Paris éditions" height="18" class="logo-img">
+			<img src="images/logo-lire-magazine_150x.webp" alt="Magazine Lire" height="55" class="logo-img">
+			<img src="images/marabout-logo.svg" alt="Marabout" height="70" class="logo-img">
+			<img src="images/logo-poitiers.png" alt="Université de Poitiers" height="75" class="logo-img">
 		</div>
 
 	</div>
@@ -110,7 +104,7 @@
 			<a href="mailto:nbrousse@pm.me" title="Email me !"><i class="far fa-envelope icone"></i></a>
 			<a href="https://www.linkedin.com/in/nathalie-brousse-839a968a/" title="Profil LinkedIn"><i class="fab fa-linkedin-in icone"></i></a>
 			<a href="https://twitter.com/BrousseNathalie" title="Fil Twitter"><i class="fab fa-twitter icone"></i></a>
-			<p>Nathalie Brousse • 2021 • <a href="mentionslegales.html" class="boutonSMALL">Mentions légales</a></p>
+			<p>Nathalie Brousse • 2023 • <a href="mentionslegales.html" class="boutonSMALL">Mentions légales</a></p>
 		</footer>
 	</body>
 
