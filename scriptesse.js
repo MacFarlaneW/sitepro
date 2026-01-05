@@ -139,9 +139,12 @@ function loadRandomImages() {
   });
 }
 
-// // Chargement automatique au démarrage
+// Chargement automatique au démarrage
 window.addEventListener("DOMContentLoaded", () => {
       loadRandomImages();
+     //setupBlocks();
+});
+window.addEventListener("load", () => {
       setupBlocks();
 });
 
