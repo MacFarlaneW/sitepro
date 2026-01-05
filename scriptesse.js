@@ -140,7 +140,7 @@ function loadRandomImages() {
 }
 
 // // Chargement automatique au démarrage
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
       loadRandomImages();
       setupBlocks();
 });
