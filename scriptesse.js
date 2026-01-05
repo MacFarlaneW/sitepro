@@ -140,13 +140,13 @@ function loadRandomImages() {
 }
 
 // // Chargement automatique au démarrage
-window.addEventListener("DOMContentLoaded", () => {
-    loadRandomImages();
-    setupBlocks();
+window.addEventListener("load", () => {
+      loadRandomImages();
+      setupBlocks();
 });
 
 //-------------------------partie qui positionne les blocs-------------------------
-//Pinterest layout, solution de http://labs.benholland.me/
+//            Pinterest layout, solution de http://labs.benholland.me/
 //---------------------------------------------------------------------------------
 		var colCount = 0; //valeur initiale écrasée plus bas
 		var colWidth = 280; //valeur initiale écrasée plus bas
@@ -163,13 +163,11 @@ window.addEventListener("DOMContentLoaded", () => {
 			windowWidth = $(window).width();
 			colWidth = $('.block').outerWidth();
 			blocks = [];
-			console.log(blocks);
 			colCount = Math.floor(windowWidth/(colWidth+margin*2));
 			for(var i=0;i<colCount;i++){
 				blocks.push(margin+headerHeight);
 			}
-      console.log(blocks);
-			positionBlocks();
+      positionBlocks();
 		}
 
 
@@ -183,7 +181,7 @@ window.addEventListener("DOMContentLoaded", () => {
 				var min = Array.min(blocks);
 				var index = $.inArray(min, blocks);
 				var leftPos = margin+(index*(colWidth+margin));
-        console.log(`Bloc: colonne ${index}, top=${min}px, left=${leftPos}px`);
+        //console.log(`Bloc: colonne ${index}, top=${min}px, left=${leftPos}px`);
 				$(this).css({
 					'left':leftPos+'px',
 					'top':min+'px'
