@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+    	<title>Prestations - Nathalie Brousse - éditrice scientifique</title>
+    	<meta name="description" content="Faites appel à une éditrice scientifique pour vos projets ! Prestations : pilotage de projets, édition et réécriture.">
+        <link rel="icon" type="image/png" href="images/logo.png"/>
+    	<link rel="stylesheet" href="style.css">
+    	<link rel="stylesheet" href="stylesse.css">
+    	<script src="https://code.jquery.com/jquery-latest.js"></script>
+   	    <script src="scriptesse.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <!---------------définition des twitter-card, facebook-card--------->
+        <meta property="og:title" content="Édition scientifique free-lance">
+        <meta property="og:description" content="Faites appel à une éditrice scientifique pour vos projets !">
+        <meta property="og:image" content="https://macfarlanew.github.io/sitepro/images/Twitter-card.png">
+        <meta property="twitter:image" content="https://macfarlanew.github.io/sitepro/images/Twitter-card.png">
+        <meta property="og:url" content="https://macfarlanew.github.io/sitepro/index.html">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <!---------------gérer les différents appareils--------->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+
+		<nav>
+			<ul>
+				<li class="nav-home"><a href="index.html">Nathalie Brousse</a></li>
+				<li class="nav-link"><a href="cvitae.html">Qui suis-je ?</a></li>
+                <li class="nav-active"><a href="portfolio.html">Portfolio</a></li>
+				<li class="nav-link"><a href="prestations.html">Prestations</a></li>
+				<li class="nav-link"><a href="contact.html">Contact</a></li>	
+			</ul>
+		</nav>
+
+		<div class="dropdown">
+  			<button id="myBtn" class="dropbtn">&#8801;</button>
+  			<div id="myDropdown" class="dropdown-content">
+    			<a class="mobile-link" href="index.html">Accueil</a>
+    			<a class="mobile-link" href="cvitae.html">Qui suis-je ?</a>
+                <a class="mobile-active" href="portfolio.html">Portfolio</a>
+    			<a class="mobile-link" href="prestations.html">Prestations</a>
+    			<a class="mobile-link" href="contact.html">Contact</a>
+  			</div>
+		</div>
+		<script>
+			document.getElementById("myBtn").onclick = function() {dropUPandDOWN()};
+			function dropUPandDOWN() {document.getElementById("myDropdown").classList.toggle("show");}
+		</script>
+
+		<header>
+		</header>
+
+		
+			<div class="wrapper" id="wrapper">
+				<div class="block">
+					<a href="portfolio.html">
+					<img src="images/avatar-heros-RETOUR2.png" alt="Retour au portfolio"></a>
+				</div>
+				<div class="block">
+					<p>Défilez vers le bas pour découvrir les couvertures des ouvrages (ordre aléatoire).</p>
+				</div>
+
+				<div id="imageContainer"></div>
+				<div class="block">
+					<p>Et bien plus à venir !</p>
+				</div>
+				<div class="block">
+					<a href="portfolio.html">
+					<img src="images/avatar-heros-RETOUR2.png" alt="Retour au portfolio"></a>
+				</div>
+			</div>           
+
+
+		<footer>
+			<!---------------mail twitter linkedin--------->
+			<a href="mailto:nbrousse@pm.me" title="Email me !"><i class="far fa-envelope icone"></i></a>
+			<a href="https://www.linkedin.com/in/nathalie-brousse-839a968a/" title="Profil LinkedIn"><i class="fab fa-linkedin-in icone"></i></a>
+			<a href="https://twitter.com/BrousseNathalie" title="Fil Twitter"><i class="fab fa-twitter icone"></i></a>
+            <a href="https://bsky.app/profile/did:plc:mry4cg62ibrvgpwsjgckdkxz" title="Fil BlueSky"><i class="fa-brands fa-bluesky icone"></i></a>
+			<p>Nathalie Brousse • 2021 • <a href="mentionslegales.html" class="boutonSMALL">Mentions légales</a></p>
+		</footer>
+	</body>
+
+</html>

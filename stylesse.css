@@ -1,0 +1,58 @@
+
+* {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-size: auto calc(var(--wrapper-height) + 20px); /* taille fixe du motif pour éviter le problème au chargement */
+}
+
+
+footer {
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+
+.wrapper {
+  position: relative;
+  height: var(--wrapper-height); /* récupération de la taille modifiée dynamiquement pour bien placer le footer */
+}
+
+.block {
+	position: absolute;
+	width: 220px;
+}
+#imageContainer {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+ /* Image : occupe la largeur du bloc, garde ses proportions, emphase lorsque la souris passe au-dessus */
+
+.block img {
+      width: 100%;     /* s’adapte à la largeur du bloc */
+      height: auto;   /* conserve le ratio d’origine */
+      display: block;  /*évite le problème du comportement inline avec les descendantes des lettres */       
+    }
+
+.block p {
+ 	padding: 20px;
+ 	background: #fff;
+ }
+
+.block:hover {
+      transform: scale(1.1);
+}
